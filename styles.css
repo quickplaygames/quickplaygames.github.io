@@ -3,19 +3,21 @@ body{
 }
 
 h1{
-  color: #d60202;
   text-allign: center;
+  color: #d60202;
   text-font: "aceme";
 }
 
 p1{
-  color: #d60202;
   text-allign: center;
+  color: #d60202;
   text-font: "aceme";
 }
 
 div{
-  background-color: #d60202;
+  text-allign: center;
+  background-color: #000000;
+  color: #d60202;
   text-allign: center;
   text-font: "aceme";
 }
