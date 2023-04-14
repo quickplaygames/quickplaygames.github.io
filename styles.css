@@ -3,7 +3,13 @@ body{
 }
 
 h1{
-  color: #ffffff;
+  color: #570000;
   text-allign: center;
+  text-font: "aceme";
+}
+
+p1{
+  color: #ffffff;
+  text-allign: left;
   text-font: "aceme";
 }
