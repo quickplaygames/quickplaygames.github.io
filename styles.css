@@ -10,11 +10,12 @@ h1{
 
 p1{
   color: #d60202;
-  text-allign: left;
+  text-allign: center;
   text-font: "aceme";
 }
 
 div{
   background-color: #d60202;
+  text-allign: center;
   text-font: "aceme";
 }
