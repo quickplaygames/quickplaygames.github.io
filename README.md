@@ -1,3 +1,3 @@
 # djagmestest
-Unbloked Games Site
-We Are Moving From Google Sites To Vercel
+Unblocked Games Site
+We Are Moving From Glitch to GitHub
