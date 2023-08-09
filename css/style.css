@@ -1146,6 +1146,7 @@ ol {
 
 .game-item {
 	margin-bottom: 80px;
+	border-radius: 30px;
 }
 
 .game-item h5 {
