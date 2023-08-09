@@ -1097,119 +1097,112 @@ ol {
 /* --------------
   Games Page
 -----------------*/
-
 .games-section {
-	padding: 108px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
-	background: #501755;
-	/* Old browsers */
-	/* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* Chrome10-25,Safari5.1-6 */
-	background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
-	/* IE6-9 fallback on horizontal gradient */
+  padding: 108px 0;
+  background: #501755;
+  background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);
+  background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
+  background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
 }
 
 .game-filter {
-	list-style: none;
-	margin-bottom: 82px;
+  list-style: none;
+  margin-bottom: 82px;
 }
 
 .game-filter li {
-	display: inline-block;
-	width: 40px;
-	height: 34px;
-	background: #503c6e;
-	border-radius: 17px;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+  display: inline-block;
+  width: 40px;
+  height: 34px;
+  background: #503c6e;
+  border-radius: 17px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .game-filter li:hover {
-	background: #c313b7;
+  background: #c313b7;
 }
 
 .game-filter li a {
-	font-size: 15px;
-	font-weight: 700;
-	color: #fff;
-	display: block;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 7px;
 }
 
 .game-item {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .game-item h5 {
-	font-size: 20px;
-	color: #fff;
-	padding-top: 30px;
-	margin-bottom: 20px;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 30px;
+  margin-bottom: 20px;
 }
 
 .game-item .read-more {
-	font-size: 15px;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-style: italic;
-	color: #b01ba5;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+  color: #b01ba5;
 }
 
 .game-item .read-more img {
-	margin-left: 13px;
+  margin-left: 13px;
 }
 
 .site-pagination {
-	display: -ms-flex;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .site-pagination a {
-	width: 38px;
-	height: 44px;
-	border-radius: 50%;
-	font-size: 16px;
-	font-weight: 500;
-	border: 2px solid transparent;
-	color: #fff;
-	display: -ms-inline-flex;
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+  width: 38px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid transparent;
+  color: #fff;
+  display: -ms-inline-flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .site-pagination a.active {
-	width: 44px;
-	margin: 0 10px;
-	color: #b01ba5;
-	border: 2px solid #b01ba5;
+  width: 44px;
+  margin: 0 10px;
+  color: #b01ba5;
+  border: 2px solid #b01ba5;
 }
 
 .site-pagination a.active:first-child {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 .game-page-sideber .widget-item {
-	margin-bottom: 55px;
+  margin-bottom: 55px;
 }
 
 /* ------------------
