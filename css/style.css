@@ -1168,9 +1168,7 @@ ol {
 }
 
 .site-pagination {
-	display: -ms-flex;
-	display: -webkit-box;
-	display: -ms-flexbox;
+	display: inline-block;
 	display: flex;
 }
 
