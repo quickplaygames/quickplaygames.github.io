@@ -1170,6 +1170,7 @@ ol {
 .site-pagination {
 	display: inline-block;
 	display: flex;
+	  flex-direction: row;
 }
 
 .site-pagination a {
