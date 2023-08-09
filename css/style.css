@@ -1179,6 +1179,18 @@ a {
   color: #ffffff;
   text-align: center;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  order: 0;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  padding: 10px;
+}
 
 
 /* ------------------
