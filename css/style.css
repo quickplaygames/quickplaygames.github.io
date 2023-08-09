@@ -1100,17 +1100,11 @@ ol {
 
 .games-section {
 	padding: 108px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
 	background: #501755;
-	/* Old browsers */
-	/* FF3.6-15 */
 	background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* Chrome10-25,Safari5.1-6 */
 	background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
 	background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
-	/* IE6-9 fallback on horizontal gradient */
 }
 
 .game-filter {
@@ -1145,7 +1139,13 @@ ol {
 }
 
 .game-item {
-	margin-bottom: 80px;
+	display: inline-block;
+	width: 25%;
+	margin-right: 4%;
+}
+
+.game-item:last-child {
+	margin-right: 0;
 }
 
 .game-item h5 {
@@ -1170,7 +1170,7 @@ ol {
 .site-pagination {
 	display: inline-block;
 	display: flex;
-	  flex-direction: row;
+	flex-direction: row;
 }
 
 .site-pagination a {
@@ -1184,7 +1184,7 @@ ol {
 	display: -ms-inline-flex;
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
-	  flex-direction: row;
+	flex-direction: row;
 	display: inline-flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
@@ -1211,6 +1211,7 @@ ol {
 .game-page-sideber .widget-item {
 	margin-bottom: 55px;
 }
+
 
 /* ------------------
   Game single Page
