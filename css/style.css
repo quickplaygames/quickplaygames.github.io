@@ -1120,9 +1120,8 @@ a {
 .game-tile {
   background-color: #000000;
   height: 350px;
-  width: 320px;
+  width: 305px;
   color: #ffffff;
-  border-radius: 30px;
   -webkit-animation: scale-down-center 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: scale-down-center 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
