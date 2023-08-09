@@ -1118,8 +1118,8 @@ a {
   width: 300px;
 }
 .game-tile {
-  background-color: #949494;
-  height: 400px;
+  background-color: #000000;
+  height: 350px;
   width: 300px;
   color: #ffffff;
   border-radius: 30px;
