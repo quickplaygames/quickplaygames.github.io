@@ -1139,6 +1139,7 @@ ol {
 }
 
 .game-item {
+	margin-bottom: 80px;
 	display: inline-block;
 	width: 25%;
 	margin-right: 4%;
