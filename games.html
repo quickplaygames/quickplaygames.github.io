@@ -70,6 +70,9 @@
 		<center>
 		<input id="game-search" class="searchbar" placeholder="Search..." />	
 		</center>
+		<script>
+const searchInput=document.getElementById('game-search');const gameTiles=document.getElementsByClassName('game-tile');searchInput.addEventListener('input',function(){const searchTerm=searchInput.value.toLowerCase();for(let i=0;i<gameTiles.length;i+=1){const gameTitle=gameTiles[i].querySelector('.game-title').innerText.toLowerCase();if(gameTitle.includes(searchTerm)){gameTiles[i].style.display='block'}else{gameTiles[i].style.display='none'}}});
+		</script>
 	<section class="games-section">
 		
     
