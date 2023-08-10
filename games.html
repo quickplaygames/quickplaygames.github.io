@@ -71,11 +71,12 @@
 		
 	
 	<section class="games-section">
-		<script>
-const searchbar=document.querySelector('.searchbar');const gameTitles=document.querySelectorAll('.game-title');searchbar.addEventListener('input',function(event){const searchTerm=event.target.value.toLowerCase();gameTitles.forEach(function(title){const gameTitle=title.textContent.toLowerCase();if(gameTitle.includes(searchTerm)){title.parentElement.parentElement.style.display='block'}else{title.parentElement.parentElement.style.display='none'}})});
-		</script>
+		
     <center>
       <input class="searchbar" placeholder="Search..." />
+	    <script>
+const searchbar=document.querySelector('.searchbar');const gameTitles=document.querySelectorAll('.game-title');searchbar.addEventListener('input',function(event){const searchTerm=event.target.value.toLowerCase();gameTitles.forEach(function(title){const gameTitle=title.textContent.toLowerCase();if(gameTitle.includes(searchTerm)){title.parentElement.parentElement.style.display='block'}else{title.parentElement.parentElement.style.display='none'}})});
+		</script>
     </center>
 			    <div id="search" class="flex-container">
       <a href="games/1.html" class="game-link container">
