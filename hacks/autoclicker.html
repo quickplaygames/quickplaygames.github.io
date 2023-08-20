@@ -60,13 +60,33 @@
 	</header>
 	<!-- Header section end -->
 
-<h1>Auto CLicker</h1
-<p1>Use this to Skip ADS immediately without having to buy YT or any other services premium edition.</p1>
 
 
 
 
-	
+
+	<!-- Games section -->
+	<center>
+		
+	<section class="games-section">
+		
+    <center>
+		<input id="game-search" class="searchbar" placeholder="Search..." />	
+		</center>
+		<script>
+const searchInput=document.getElementById('game-search');const gameTiles=document.getElementsByClassName('game-tile');searchInput.addEventListener('input',function(){const searchTerm=searchInput.value.toLowerCase();for(let i=0;i<gameTiles.length;i+=1){const gameTitle=gameTiles[i].querySelector('.game-title').innerText.toLowerCase();if(gameTitle.includes(searchTerm)){gameTiles[i].style.display='block'}else{gameTiles[i].style.display='none'}}});
+		</script>
+<h1>Autoclicker</h1>
+<p1>Use this to Skip AD'S immediately and to skip ads without buying an expansion or premium offer/service.</p1>
+
+    </div>
+
+    </div>
+	</section>
+	</center>
+	<!-- Games end-->
+
+
 
 	<!-- Footer section -->
 	
