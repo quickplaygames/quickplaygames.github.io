@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Quickplay Games The Best Unblocked Games Website">
 	<meta name="keywords" content=" quick, play, games, html, unblocked, games, fun, school, restricted, math, english">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
 	<!-- Favicon -->
 	<link href="quickplaygames.jpg" rel="shortcut icon"/>
 
@@ -40,10 +40,9 @@
 	<!-- Header section -->
 	<header class="header-section">
 		<div class="header-warp">
-		
 			<div class="header-bar-warp d-flex">
 				<!-- site logo -->
-				<a href="hacks.html" class="site-logo">
+				<a href="index.html" class="site-logo">
 					<img src="./img/logo.png" alt="">
 				</a>
 				<nav class="top-nav-area w-100">
@@ -52,7 +51,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="games.html">Games</a></li>						
 						<li><a href="hacks.html">Hacks</a></li>
-						<li><a href="unblockedstuff.html">Extra</a></li>
+						<li><a href="unblockedstuff.html">Extras</a></li>
 						<li><a href="partners.html">Partners</a></li>
 					</ul>
 				</nav>
@@ -62,19 +61,41 @@
 	<!-- Header section end -->
 
 
-	<!-- Hero section -->
-	<section class="hero-section overflow-hidden">
-		<div class="hero-slider owl-carousel">
-			<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="quickplaygames.jpg">
-				<div class="container">
-					<h1>Hacks</h1>
-					<p>Coming Soon!</p>
-					<a href="#" class="site-btn">Coming Soon!<img src="img/icons/double-arrow.png" alt="#"/></a>
-				</div>
-			</div>
-	</section>
-	
 
+
+
+
+	<!-- Games section -->
+	<center>
+		
+	<section class="games-section">
+		
+    <center>
+		<input id="game-search" class="searchbar" placeholder="Search..." />	
+		</center>
+		<script>
+const searchInput=document.getElementById('game-search');const gameTiles=document.getElementsByClassName('game-tile');searchInput.addEventListener('input',function(){const searchTerm=searchInput.value.toLowerCase();for(let i=0;i<gameTiles.length;i+=1){const gameTitle=gameTiles[i].querySelector('.game-title').innerText.toLowerCase();if(gameTitle.includes(searchTerm)){gameTiles[i].style.display='block'}else{gameTiles[i].style.display='none'}}});
+		</script>
+			    <div id="search" class="flex-container">
+      <a href="hacks/autoclicker.html" class="game-link container">
+        <div class="game-tile">
+          <img class="game-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Cursor_icon_with_shadow.png" alt="icon" loading="lazy" />
+          <h1 class="game-title">Autoclicker</h1>
+	</div>
+      </a>
+
+	
+    </div>
+
+    </div>
+	</section>
+	</center>
+	<!-- Games end-->
+
+
+
+	<!-- Footer section -->
+	
 	<!-- Footer section -->
 	<footer class="footer-section">
 		<div>
@@ -83,8 +104,9 @@
 	</footer>
 	<!-- Footer section end -->
 
+	<!-- Footer section end -->
 
-	<!--====== Javascripts & Jquery ======-->
+<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.slicknav.min.js"></script>
@@ -93,7 +115,7 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/enabler.js"></script>
+	<script src="js/search.js"></script>
 
 	</body>
 </html>
-
