@@ -1,15 +1,17 @@
 iframe.a.d.xy.lo {
   border: none; outline: none;
-  width: 100%;
-  height: 100%;
+  width: 0%;
+  height: 0%;
 }
 
 iframe.a.d.xy.lo.bnr {
-  aspect-ratio: 364/45;
-  max-width: 720px; max-height: 90px;
+   border: none; outline: none;
+  width: 0%;
+  height: 0%;
 }
 
 iframe.a.d.xy.lo.sqr {
-  aspect-ratio: 1/1;
-  max-width: 250px; max-height: 250px;
+   border: none; outline: none;
+  width: 0%;
+  height: 0%;
 }
