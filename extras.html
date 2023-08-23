@@ -51,7 +51,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="games.html">Games</a></li>				
 						<li><a href="hacks.html">Hacks</a></li>
-						<li><a href="unblockedstuff.html">Extra</a></li>
+						<li><a href="extras.html">Extras</a></li>
 						<li><a href="partners.html">Partners</a></li>
 					</ul>
 				</nav>
@@ -68,25 +68,27 @@
 
 	<!-- Games section -->
 	<section class="games-section">
-		
+		<center>
+			<input id="game-search" class="searchbar" placeholder="Search..." />
+		</center>
 			    <div id="search" class="flex-container">
       <a href="extras/soundboard.html" class="game-link container">
         <div class="game-tile">
-          <img class="game-icon" src="memesoundboard.png" alt="icon" loading="lazy" />
+          <img class="game-icon" src="img/other/memesoundboard.png" alt="icon" loading="lazy" />
           <h1 class="game-title">Soundboard</h1>
 	</div>
       </a>
 				      <div id="search" class="flex-container">
       <a href="extras/movies.html" class="game-link container">
         <div class="game-tile">
-          <img class="game-icon" src="movies.jpg" alt="icon" loading="lazy" />
+          <img class="game-icon" src="img/other/movies.jpg" alt="icon" loading="lazy" />
           <h1 class="game-title">Free Movies</h1>
 	</div>
       </a>
 				      <div id="search" class="flex-container">
       <a href="extras/windows11.html" class="game-link container">
         <div class="game-tile">
-          <img class="game-icon" src="windows11.jpg" alt="icon" loading="lazy" />
+          <img class="game-icon" src="img/other/windows11.jpg" alt="icon" loading="lazy" />
           <h1 class="game-title">Windows 11</h1>
 	</div>
       </a>
@@ -100,7 +102,7 @@
 				    <div id="search" class="flex-container">
       <a href="extras/chatroom.html" class="game-link container">
         <div class="game-tile">
-          <img class="game-icon" src="chatroom.png" alt="icon" loading="lazy" />
+          <img class="game-icon" src="img/other/chatroom.png" alt="icon" loading="lazy" />
           <h1 class="game-title">Web Chatroom</h1>
 	</div>
       </a>
@@ -134,7 +136,10 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/enabler.js"></script>
-
+	<script src="js/search.js"></script>
+<script>
+	const searchInput = document.getElementById('game-search'); const gameTiles = document.getElementsByClassName('game-tile'); searchInput.addEventListener('input', function () { const searchTerm = searchInput.value.toLowerCase(); for (let i = 0; i < gameTiles.length; i += 1) { const gameTitle = gameTiles[i].querySelector('.game-title').innerText.toLowerCase(); if (gameTitle.includes(searchTerm)) { gameTiles[i].style.display = 'block' } else { gameTiles[i].style.display = 'none' } } });
+</script>
 	</body>
 </html>
 

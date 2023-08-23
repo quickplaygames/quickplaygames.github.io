@@ -51,7 +51,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="games.html">Games</a></li>						
 						<li><a href="hacks.html">Hacks</a></li>
-						<li><a href="unblockedstuff.html">Extras</a></li>
+						<li><a href="extras.html">Extras</a></li>
 						<li><a href="partners.html">Partners</a></li>
 					</ul>
 				</nav>
@@ -79,7 +79,7 @@ const searchInput=document.getElementById('game-search');const gameTiles=documen
 			    <div id="search" class="flex-container">
       <a href="partners/adstudios.html" class="game-link container">
         <div class="game-tile">
-          <img class="game-icon" src="https://raw.githubusercontent.com/quickplaygames/quickplaygames.github.io/main/adstudios.png" alt="icon" loading="lazy" />
+          <img class="game-icon" src="img/other/adstudios.png" alt="icon" loading="lazy" />
           <h1 class="game-title">AD Studios</h1>
 	</div>
       </a>
@@ -116,6 +116,8 @@ const searchInput=document.getElementById('game-search');const gameTiles=documen
 	<script src="js/main.js"></script>
 	<script src="js/enabler.js"></script>
 	<script src="js/search.js"></script>
-
+<script>
+	const searchInput = document.getElementById('game-search'); const gameTiles = document.getElementsByClassName('game-tile'); searchInput.addEventListener('input', function () { const searchTerm = searchInput.value.toLowerCase(); for (let i = 0; i < gameTiles.length; i += 1) { const gameTitle = gameTiles[i].querySelector('.game-title').innerText.toLowerCase(); if (gameTitle.includes(searchTerm)) { gameTiles[i].style.display = 'block' } else { gameTiles[i].style.display = 'none' } } });
+</script>
 	</body>
 </html>
